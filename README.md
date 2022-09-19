@@ -10,7 +10,9 @@ Inside of the repo, please create at least 2 pages that are manually styled usin
  Was unable to use:
  
  link rel="stylesheet" href="{{ url_for('static', filename='about_us_style.css') }}". 
+ 
  As well as:
+ 
  link rel="stylesheet" href="{{ url_for('static', filename='welcome_style.css') }}". 
  
  When I had a static folder and template folder connected via the (link rel=...) code, the styles would not show up on the webpage.
